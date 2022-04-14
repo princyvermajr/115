@@ -1,0 +1,29 @@
+body{
+    background-image: url("https://m.media-amazon.com/images/I/71a37QykgSL._SL1280_.jpg");
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-size: 23px;
+    font-family: 'Satisfy', cursive;
+}
+#btn1{
+    background-color: pink;
+    color: black;
+    border: 4px black solid;
+    border-radius: 5px;
+    font-size: 15px;
+    
+
+}
+canvas{
+    animation-name: colours;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colours{
+from{box-shadow: 2px 2px 38px black;}
+to{box-shadow: 2px 2px 38px yellow;}
+}
